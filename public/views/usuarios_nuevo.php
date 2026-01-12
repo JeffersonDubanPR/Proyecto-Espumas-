@@ -3,8 +3,9 @@
 <div class="container mt-4">
     <h3>Nuevo Usuario</h3>
 
-    <!-- FORMULARIO CORREGIDO -->
-    <form method="POST" action="../usuarios_guardar.php">
+    <form method="POST" action="usuarios_guardar.php">
+
+
 
 
 
@@ -29,6 +30,18 @@
                 <option value="1">Activo</option>
                 <option value="0">Inactivo</option>
             </select>
+
+
+        <div class="mb-3">
+            <label class="form-label">Rol</label>
+            <select name="rol" class="form-select" required>
+            <option value="">Seleccione</option>
+            <option value="ADMIN">Administrador</option>
+            <option value="TECNICO">Técnico</option>
+            <option value="CONSULTOR">Consultor</option>
+    </select>
+</div>
+
         </div>
 
         <button class="btn btn-primary">Guardar</button>

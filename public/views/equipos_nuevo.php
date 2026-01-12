@@ -4,7 +4,9 @@
     <h3>Nuevo Equipo</h3>
  
 
-    <form method="POST" action="../equipos_guardar.php">
+    <form method="POST" action="/inventario_ti/public/equipos.php?action=guardar">
+
+
 
         <div class="row">
 

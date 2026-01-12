@@ -14,17 +14,20 @@ class EmpresaController {
         include __DIR__ . '/../../public/views/empresas_nuevo.php';
     }
 
+
     public function guardar($post) {
-        $empresa = new Empresa();
 
-        $empresa->nombre = $post['nombre'];
-        $empresa->estado = 1;
+       $empresa = new Empresa();
+       $empresa->nombre = $post['nombre'];
+       $empresa->estado = $post['estado'];
 
-        $empresa->guardar();
+       $empresa->guardar();
 
-        header("Location: empresas.php");
-        exit;
+       header("Location: empresas.php");
+       exit;
     }
+
+
 
     public function editar($id) {
         $empresa = new Empresa();

@@ -59,4 +59,6 @@ class UserController {
         header("Location: usuarios.php");
         exit;
     }
+
+    
 }

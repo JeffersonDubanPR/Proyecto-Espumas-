@@ -36,14 +36,14 @@ if (!isset($_SESSION['usuario_id'])) {
 </nav>
 
 <style>
-/* Quitar flechas en inputs type=number (Chrome, Edge, Safari) */
+
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-/* Quitar flechas en Firefox */
+
 input[type=number] {
     -moz-appearance: textfield;
 }

@@ -4,7 +4,7 @@
 
     <div class="d-flex justify-content-between mb-3">
         <h3>Equipos registrados</h3>
-        <a href="views/equipos_nuevo.php" class="btn btn-primary">Nuevo equipo</a>
+        <a href="equipos.php?action=nuevo" class="btn btn-primary">Nuevo equipo</a>
     </div>
 
     <table class="table table-striped table-hover">

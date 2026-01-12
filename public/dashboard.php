@@ -77,19 +77,6 @@ if (!isset($_SESSION['usuario_id'])) {
               <p class="text-muted">Inventario tecnológico general</p>
            </div>
         </a>
-
-
-        <div class="col-md-4 mb-3">
-            <a href="#" class="text-decoration-none">
-                <div class="card card-dashboard shadow-sm p-4 text-center">
-                    <h4> Importar Datos </h4>
-                    <p class="text-muted">Cargar información masiva</p>
-                </div>
-            </a>
-        </div>
-
-
-
     </div>
 </div>
 

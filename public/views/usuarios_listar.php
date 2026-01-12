@@ -3,9 +3,10 @@
 <div class="container mt-4">
     <h3>Usuarios registrados</h3>
 
-    <a href="usuarios_nuevo.php" class="btn btn-primary mb-3">
-        Nuevo usuario
+    <a href="usuarios.php?action=nuevo" class="btn btn-primary">
+    Nuevo usuario
     </a>
+
 
     <table class="table table-striped">
         <thead>

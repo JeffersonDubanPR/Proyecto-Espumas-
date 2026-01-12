@@ -16,7 +16,7 @@ require_once __DIR__ . '/../app/config/config.php';
             margin: 0;
         }
 
-        /* Imagen de fondo fija */
+        
         body {
             background: url('img/img1.jpg') no-repeat center center fixed;
             background-size: cover;
@@ -24,13 +24,12 @@ require_once __DIR__ . '/../app/config/config.php';
 
         <body style="
           background: url('img/img1.jpg') no-repeat center center fixed;
-          background-size: 110%; /* antes 100% → ahora reduce zoom */
+          background-size: 110%; 
         ">
 
 
         
 
-        /* Capa oscura para legibilidad */
         .overlay-dark {
             position: fixed;
             top: 0; left: 0;
@@ -39,7 +38,7 @@ require_once __DIR__ . '/../app/config/config.php';
             z-index: 0;
         }
 
-        /* Tarjeta del login */
+    
         .login-card {
             z-index: 2;
             backdrop-filter: blur(6px);
